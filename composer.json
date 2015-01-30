@@ -1,0 +1,8 @@
+{
+    "name": "loopline-systems/trello-github-issue-manager",
+    "license": "MIT",
+    "type": "project",
+    "description": "Issue-Manager - small tool to connect Trello with multiple Github repositories",
+    "prefer-stable": true,
+    "minimum-stability": "stable"
+}
