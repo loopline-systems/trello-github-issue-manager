@@ -1,0 +1,3 @@
+trello_hooks:
+    resource: 'LooplineSystems\IssueManager\Bundle\Trello2GithubBundle\Controller\TrelloHooksController'
+    type:     rest

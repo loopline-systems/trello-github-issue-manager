@@ -1,0 +1,4 @@
+github2_trello_default:
+    resource: LooplineSystems\IssueManager\Bundle\Github2TrelloBundle\Controller\GithubHooksController
+    type:     rest
+

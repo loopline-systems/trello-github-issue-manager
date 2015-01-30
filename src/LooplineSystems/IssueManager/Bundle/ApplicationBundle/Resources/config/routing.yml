@@ -1,0 +1,3 @@
+user:
+    resource: 'LooplineSystems\IssueManager\Bundle\ApplicationBundle\Controller\MainController'
+    type:     annotation

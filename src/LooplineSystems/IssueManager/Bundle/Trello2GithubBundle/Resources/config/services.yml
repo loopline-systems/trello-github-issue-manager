@@ -1,0 +1,18 @@
+parameters:
+#    issue_manager_trello2_github.example.class: LooplineSystems\IssueManager\Bundle\Trello2GithubBundle\Example
+
+services:
+#    issue_manager_trello2_github.example:
+#        class: %issue_manager_trello2_github.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]
+
+
+    issue_manager.trello_api.api:
+        class: 'LooplineSystems\IssueManager\Library\Trello\Api\TrelloApi'
+        calls:
+          - [setContainer, ["@service_container"]]
+
+    issue_manager.trello_api.api_helper:
+        class: 'LooplineSystems\IssueManager\Library\Trello\Api\TrelloApiHelper'
+        calls:
+          - [setContainer, ["@service_container"]]

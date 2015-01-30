@@ -1,0 +1,74 @@
+{
+  "action": {
+    "id": "54199ac8685905ccdcad8a1b",
+    "idMemberCreator": "50619d692accd8183e001d4f",
+    "data": {
+      "board": {
+        "shortLink": "M5ez6zlg",
+        "name": "Loopline Development",
+        "id": "540ece9513f0220f3d796b91"
+      },
+      "card": {
+        "shortLink": "oDZHlPD4",
+        "idShort": 8,
+        "name": "some tick",
+        "id": "54194f6fa5def19b3017aa7b"
+      },
+      "old": {
+        "text": "test"
+      },
+      "action": {
+        "text": "[test/12] [all] foo\n\nmore linebreaks\n\nand stuff",
+        "id": "541985ddfa5350b830455e90"
+      }
+    },
+    "type": "updateComment",
+    "date": "2014-09-17T14:29:28.762Z",
+    "memberCreator": {
+      "id": "50619d692accd8183e001d4f",
+      "avatarHash": "dfa180a177423ff00dd3da593b1ac679",
+      "fullName": "Marco Roßdeutscher",
+      "initials": "MR",
+      "username": "marcorossdeutscher"
+    }
+  },
+  "model": {
+    "id": "540ece9513f0220f3d796b91",
+    "name": "Loopline Development",
+    "desc": "",
+    "descData": null,
+    "closed": false,
+    "idOrganization": "53b1640eb909ed9f47509e28",
+    "pinned": true,
+    "url": "https://trello.com/b/M5ez6zlg/loopline-development",
+    "shortUrl": "https://trello.com/b/M5ez6zlg",
+    "prefs": {
+      "permissionLevel": "private",
+      "voting": "disabled",
+      "comments": "members",
+      "invitations": "members",
+      "selfJoin": true,
+      "cardCovers": true,
+      "cardAging": "regular",
+      "calendarFeedEnabled": false,
+      "background": "blue",
+      "backgroundColor": "#23719F",
+      "backgroundImage": null,
+      "backgroundImageScaled": null,
+      "backgroundTile": false,
+      "backgroundBrightness": "unknown",
+      "canBePublic": true,
+      "canBeOrg": true,
+      "canBePrivate": true,
+      "canInvite": true
+    },
+    "labelNames": {
+      "red": "",
+      "orange": "",
+      "yellow": "",
+      "green": "",
+      "blue": "",
+      "purple": ""
+    }
+  }
+}

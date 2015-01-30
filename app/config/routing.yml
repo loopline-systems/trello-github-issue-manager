@@ -1,0 +1,11 @@
+issue_manager_application:
+    resource: "@IssueManagerApplicationBundle/Resources/config/routing.yml"
+    prefix:   /
+
+issue_manager_trello2_github:
+    resource: "@IssueManagerTrello2GithubBundle/Resources/config/routing.yml"
+    prefix:   /
+
+issue_manager_github2_trello:
+    resource: "@IssueManagerGithub2TrelloBundle/Resources/config/routing.yml"
+    prefix:   /

@@ -1,0 +1,55 @@
+parameters:
+#    issue_manager_github2_trello.example.class: LooplineSystems\IssueManager\Bundle\Github2TrelloBundle\Example
+
+services:
+
+# API
+
+    issue_manager.github_api:
+        class: 'LooplineSystems\IssueManager\Library\Github\Api\GithubApi'
+        calls:
+          - [setContainer, ["@service_container"]]
+
+
+# WEB HOOK
+
+    issue_manager.github_webhook:
+        class: 'LooplineSystems\IssueManager\Library\Github\WebHook\GithubWebHook'
+        calls:
+          - [setContainer, ["@service_container"]]
+          - [setRequest, [@request_stack]]
+
+
+    ## event: ping (used by GitHub to check if webhook is valid)
+    issue_manager.github_webhook.event_ping:
+        class: 'LooplineSystems\IssueManager\Library\Github\WebHook\Event\PingEvent'
+        calls:
+          - [setContainer, ["@service_container"]]
+
+
+    ## event: issues
+    issue_manager.github_webhook.event_issues:
+        class: 'LooplineSystems\IssueManager\Library\Github\WebHook\Event\IssuesEvent'
+        calls:
+          - [setContainer, ["@service_container"]]
+
+    issue_manager.github_webhook.event_issues.action_opened:
+        class: 'LooplineSystems\IssueManager\Library\Github\WebHook\Event\Action\Issues\OpenedAction'
+        calls:
+          - [setContainer, ["@service_container"]]
+    issue_manager.github_webhook.event_issues.action_closed:
+        class: 'LooplineSystems\IssueManager\Library\Github\WebHook\Event\Action\Issues\ClosedAction'
+        calls:
+          - [setContainer, ["@service_container"]]
+
+    # event: issue_comment
+    issue_manager.github_webhook.event_issue_comment:
+        class: 'LooplineSystems\IssueManager\Library\Github\WebHook\Event\IssueCommentEvent'
+        calls:
+          - [setContainer, ["@service_container"]]
+
+    issue_manager.github_webhook.event_issue_comment.action_created:
+        class: 'LooplineSystems\IssueManager\Library\Github\WebHook\Event\Action\IssueComment\CreatedAction'
+        calls:
+          - [setContainer, ["@service_container"]]
+
