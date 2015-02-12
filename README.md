@@ -19,6 +19,15 @@ This tool will allow you to connect your **feature based Trello card** with **se
 One example of this setup might be, you have several components and a new feature might affect a set of them. 
 
 
+### Screencast
+
+Short screencast of the functionality (~2mins)
+
+[![screencast](docs/screenshot_screencast.png)](http://vimeo.com/119217279Y)
+
+
+
+
 ### usage flow
 
 1. Create feature card on Trello
@@ -57,7 +66,15 @@ One example of this setup might be, you have several components and a new featur
 
 Trello board: https://trello.com/b/aQnT0luF/development-features
 
-Github issues: https://github.com/issuemanager
+Sadly, Trello does not support editing of checklists on public boards. If you want to try the editing, use our demo account:
+
+> username: `issuemanager-demo`
+
+> password: `login123`
+
+
+
+Connected Github issues: https://github.com/issuemanager
 
 
 
