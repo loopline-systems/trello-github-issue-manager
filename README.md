@@ -23,7 +23,7 @@ One example of this setup might be, you have several components and a new featur
 
 Short screencast of the functionality (~2mins)
 
-[![screencast](docs/screenshot_screencast.png)](http://vimeo.com/119217279Y)
+[![screencast](docs/screenshot_screencast.png)](http://vimeo.com/119217279)
 
 
 
