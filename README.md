@@ -68,7 +68,7 @@ Trello board: https://trello.com/b/aQnT0luF/development-features
 
 Sadly, Trello does not support editing of checklists on public boards. If you want to try the editing, use our demo account:
 
-> username: `issuemanager-demo`
+> username: `issuemanagerdemo`
 
 > password: `login123`
 
