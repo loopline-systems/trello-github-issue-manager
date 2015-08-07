@@ -56,8 +56,3 @@ fos_rest:
 
     routing_loader:
         include_format:       false
-
-jms_serializer:
-    property_naming:
-        strategy: identical
-
